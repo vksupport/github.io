@@ -1,0 +1,91 @@
+.login_msg {
+  border: 1px solid #D4BC4C;
+  background-color: #F9F6E7;
+  padding: 8px 11px;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0px 10px 0px 10px;
+  text-align: left;
+  font-weight: normal;
+  line-height: 160%;
+}
+.forgotPass {
+  padding-top: 10px;
+}
+#fast_restore_phone {
+  margin: 0px;
+}
+.log_label {
+  width: 220px;
+  padding: 8px;
+}
+.login_restore {
+  padding-bottom: 30px;
+}
+#fast_restore_h {
+  padding: 15px 0px 8px;
+  font-size: 1.09em;
+  line-height: 1.27em;
+  color: #45688E;
+  font-weight: bold;
+}
+.fast_tt {
+  position: absolute;
+  z-index: 2000;
+  margin-left: 182px;
+  margin-top: -25px;
+  cursor: default;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.fast_tt_wrap {
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.fast_tt_text {
+  width: 185px;
+  line-height: 120%;
+  color: #000;
+  padding: 10px;
+  background: #FFF;
+  border: 1px solid #96AABE;
+}
+.fast_tt_pointer {
+  behavior: url(/js/iepngfix.htc);
+  background: url(/images/ddtooltip.png) 0 0 no-repeat;
+  width: 8px;
+  height: 11px;
+  position: absolute;
+  left: -7px;
+  overflow: hidden;
+  z-index: 10;
+  top: 10px;
+}
+#fast_code_tt .fast_tt_pointer {
+  top: 40px;
+}
+#fast_code_tt {
+  margin-top: -57px;
+}
+.fast_tt_bottom_sh1,
+.fast_tt_bottom_sh2 {
+  background: black;
+  overflow: hidden;
+  height: 1px;
+  line-height: 1px;
+  opacity: 0.12;
+  filter: alpha(opacity=12);
+}
+.fast_tt_bottom_sh2 {
+  opacity: 0.05;
+  filter: alpha(opacity=5);
+}
+.is_rtl1 .fast_tt_pointer {
+  left: auto;
+  right: -7px;
+  background-position: -7px 0px;
+}
+.is_rtl1 .fast_tt {
+  margin-left: auto;
+  margin-right: 182px;
+}
